@@ -1,0 +1,137 @@
+:root{
+    --cor-fundo: #F5F5F5
+    --cor-principal: #000000;
+    --cor-botao: #49B970;
+    --cor-destaque: #D5D5D5;
+    --cor-botao-texto: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'tahoma', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+}
+
+/* Banner */
+
+.banner{
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid var(--cor-destaque);
+}
+
+.banner h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.banner img{
+    width: 190px;
+    height: auto;      
+}
+
+.banner h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner p{
+    font-size: 16px;
+    margin: 15px auto 30px auto;
+    width: 35%;
+}
+
+.banner .btn-comprar{
+    background-color: var(--cor-botao);
+    font-weight: bold;
+    color: var(--cor-botao-texto);
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* resumo */
+
+.resumo{
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid var(--cor-destaque);
+}
+
+.resumo h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.resumo p{
+    font-size: 16px;
+    margin: 15px auto 30px auto;
+    width: 35%;
+}
+
+.resumo span{
+    font-weight: bold;
+}
+
+/* autor */
+
+.autor{
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid var(--cor-destaque);
+}
+
+.autor h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.autor img{
+    width: 190px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.autor p{
+    font-size: 16px;
+    margin: 15px auto 30px auto;
+    width: 35%;
+}
+
+/* sobre o livro */
+
+.sobre {
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid var(--cor-destaque);
+}
+
+.sobre h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sobre p{
+    font-size: 16px;
+    margin: 15px auto 30px auto;
+    width: 35%;
+}
+
+.sobre span{
+    font-weight: bold;
+}
+
+.sobre .btn-comprar{
+    background-color: var(--cor-botao);
+    font-weight: bold;
+    color: var(--cor-botao-texto);
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
