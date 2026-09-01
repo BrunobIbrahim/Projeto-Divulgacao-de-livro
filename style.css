@@ -40,7 +40,7 @@
 .banner p{
     font-size: 16px;
     margin: 15px auto 30px auto;
-    width: 35%;
+    width: 45%;
 }
 
 .banner .btn-comprar{
@@ -70,7 +70,7 @@
 .resumo p{
     font-size: 16px;
     margin: 15px auto 30px auto;
-    width: 35%;
+    width: 45%;
 }
 
 .resumo span{
@@ -99,7 +99,7 @@
 .autor p{
     font-size: 16px;
     margin: 15px auto 30px auto;
-    width: 35%;
+    width: 45%;
 }
 
 /* sobre o livro */
@@ -118,7 +118,7 @@
 .sobre p{
     font-size: 16px;
     margin: 15px auto 30px auto;
-    width: 35%;
+    width: 45%;
 }
 
 .sobre span{
